@@ -1,7 +1,7 @@
 {
-    "name": "Aula DIO no YouTube",
+    "name": "Lesson DIO on YouTube",
     "version": "1.0",
-    "description": "Mostra link para as aulas da Digital Innovation no Youtube",
+    "description": "Get the URL of the lessons of Digital Innovation on Youtube",
     "browser_action": {
         "default_icon": "images/DIO-youtube-pixel-art.png",
         "default_popup": "popup.html"
