@@ -1,10 +1,10 @@
 let videoUrlOnYoutube
 
-// Quando a página for carregada
+// After content be loaded in DOM
 document.addEventListener('DOMContentLoaded', function () {
-    // Adiciona um listener para o evento de click no botão chamado btn-get-link
+    // Add listener to click event on button btn-get-link
     document.querySelector('#btn-get-link').addEventListener('click', () => {
-        // Quando houver um click, altera o texto do elemento chamado txt-yt-link para clicou
+        // Action to be performed on click
         requestVideoUrlOnYoutube('hello')
         });    
     })
