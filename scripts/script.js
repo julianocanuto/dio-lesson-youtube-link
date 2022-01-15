@@ -1,18 +1,13 @@
 let videoUrlOnYoutube
 
-
 // Quando a página for carregada
 document.addEventListener('DOMContentLoaded', function () {
     // Adiciona um listener para o evento de click no botão chamado btn-get-link
     document.querySelector('#btn-get-link').addEventListener('click', () => {
         // Quando houver um click, altera o texto do elemento chamado txt-yt-link para clicou
-        //updateTextWithVideoUrl('Requesting video URL')
-        //sendMessageToContentScript('getVideoURL')
         requestVideoUrlOnYoutube('hello')
         });    
     })
-
-
 
 function updateTextWithVideoUrl(newText) {
     document.querySelector('#txt-yt-link').innerHTML = newText
