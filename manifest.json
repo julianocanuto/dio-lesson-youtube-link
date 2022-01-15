@@ -14,8 +14,8 @@
                 "*://*.dio.me/project/*"
             ],
             "js": [
-                "content.js",
-                "script.js"
+                "scripts/content.js",
+                "scripts/script.js"
             ]
         }
     ],
@@ -25,6 +25,6 @@
         "storage"
     ],
     "background" : {
-        "scripts": ["background.js"]
+        "scripts": ["scripts/background.js"]
     }
 }
