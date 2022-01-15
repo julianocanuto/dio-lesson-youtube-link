@@ -26,7 +26,7 @@ function addListenerToDocumentClick() {
             console.log(getYoutubeUrl())
             return getYoutubeUrl()
         } catch (e) {
-            const errorMsg = "Não consegui obter o link para a aula da DIO no Youtube. Sorry"
+            const errorMsg = "Could not get the link to the video. Sorry"
             console.log(errorMsg)
             return errorMsg
         }
