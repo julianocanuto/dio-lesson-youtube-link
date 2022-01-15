@@ -1,0 +1,30 @@
+{
+    "name": "Aula DIO no YouTube",
+    "version": "1.0",
+    "description": "Mostra link para as aulas da Digital Innovation no Youtube",
+    "browser_action": {
+        "default_icon": "DIO-youtube-pixel-art.png",
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.dio.me/course/*", 
+                "*://*.dio.me/project/*"
+            ],
+            "js": [
+                "content.js",
+                "script.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "storage"
+    ],
+    "background" : {
+        "scripts": ["background.js"]
+    }
+}
