@@ -1,6 +1,3 @@
-// https://youtu.be/ew9ut7ixIlI?list=PLRqwX-V7Uu6bL9VOMT65ahNEri9uqLWfS
-// 11.4: Chrome Extensions: Background Scripts - Programming with Text
-
 // Listening messages
 chrome.runtime.onMessage.addListener(
     function(request, sender, sendResponse) {
@@ -22,10 +19,6 @@ window.addEventListener('load', (event) => {
     addListenerToDocumentClick()
    });
 
-
-
-
-
 function addListenerToDocumentClick() {
     document.addEventListener('click', () => {
         try {
@@ -33,7 +26,7 @@ function addListenerToDocumentClick() {
             console.log(getYoutubeUrl())
             return getYoutubeUrl()
         } catch (e) {
-            const errorMsg = "Não consegui obter o link para a aula da DIO no Youtube. Sorry"
+            const errorMsg = "Could not get the link to the video. Sorry"
             console.log(errorMsg)
             return errorMsg
         }
