@@ -1,6 +1,3 @@
-// https://youtu.be/ew9ut7ixIlI?list=PLRqwX-V7Uu6bL9VOMT65ahNEri9uqLWfS
-// 11.4: Chrome Extensions: Background Scripts - Programming with Text
-
 // Listening messages
 chrome.runtime.onMessage.addListener(
     function(request, sender, sendResponse) {
@@ -21,10 +18,6 @@ chrome.runtime.onMessage.addListener(
 window.addEventListener('load', (event) => {
     addListenerToDocumentClick()
    });
-
-
-
-
 
 function addListenerToDocumentClick() {
     document.addEventListener('click', () => {
