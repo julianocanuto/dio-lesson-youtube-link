@@ -11,7 +11,8 @@
         {
             "matches": [
                 "*://*.dio.me/course/*", 
-                "*://*.dio.me/project/*"
+                "*://*.dio.me/project/*",
+                "*://*.dio.me/live/*"
             ],
             "js": [
                 "scripts/content.js",
