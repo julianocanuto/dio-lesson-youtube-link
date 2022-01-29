@@ -12,7 +12,8 @@
             "matches": [
                 "*://*.dio.me/course/*", 
                 "*://*.dio.me/project/*",
-                "*://*.dio.me/live/*"
+                "*://*.dio.me/live/*",
+                "*://*.dio.me/lab/*"
             ],
             "js": [
                 "scripts/content.js",
